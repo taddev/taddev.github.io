@@ -4,3 +4,4 @@ pygments: true
 safe: true
 lsi: false
 source: your top-level directory
+permalink: /:year/:month/:title
