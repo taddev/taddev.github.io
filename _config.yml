@@ -1,4 +1,5 @@
-name: Your New Jekyll Site
+name: Splunk.Net
+description: A bloggy blog
 url: https://dev.splunk.net
 markdown: redcarpet
 safe: true
