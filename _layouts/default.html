@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="/stylesheets/base.css">
 	<link rel="stylesheet" href="/stylesheets/skeleton.css">
 	<link rel="stylesheet" href="/stylesheets/layout.css">
+	<link rel="stylesheet" href="/stylesheets/my.css">
 
 	<!--[if lt IE 9]>
 		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,24 +44,32 @@
 
 	<!-- Delete everything in this .container and get started on your own site! -->
 
-	<div class="container">
+	<div class="container fill">
 		<div class="sixteen columns">
 			<h1 style="margin-top: 40px">{{ site.name }}</h1>
 			<h5>[<a class="extra" href="/">home</a>] [<a class="extra" href="/64bit-putty">64bit putty</a>]</h5>
 			<hr />
 		</div>
 		<div class="nine columns alpha offset-by-one">
-			{{ content }}
+{{ content }}
 		</div>
 		<div class="six columns omega">
-			<h4>Sidebar</h4>
-			<ul>
-				<li><a class="extra" href="/rss.xml">RSS</a></li>
+			<h4>Categories</h4>
+				<ul class="square">
+				{% for category in site.category-list %}
+					<li><a href="/category/{{ category }}">{{ category }}</a></li>
+				{% endfor %}
+				</ul>
+			<h4>RSS Feeds</h4>
+			<ul class="square">
+				<li><a href="/feed.xml">Recent Posts</a></li>
+			{% for category in site.category-list %}
+				<li><strong>Category:</strong> <a href="/feed.{{ category }}.xml">{{ category }}</a></li>
+			{% endfor %}
 			</ul>
 		</div>
 	</div><!-- container -->
 <!-- End Document
 ================================================== -->
-</body>
 </body>
 </html>
