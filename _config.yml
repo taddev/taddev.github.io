@@ -3,6 +3,6 @@ description: A bloggy blog
 url: https://blog.splunk.net
 safe: true
 lsi: true
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title/
 timezone: America/Denver
 category-list: [code, fiction, personal]
