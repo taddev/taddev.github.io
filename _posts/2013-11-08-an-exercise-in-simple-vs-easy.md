@@ -15,78 +15,16 @@ Fast-forward a few months and I've built a new web server and moved my site as w
 The easy solution consists of four files with their own settings, variables, and small amount of error handling. As you can see it was easy to build these four files since there is a lot of repeated code, but that doesn't mean it's good coding standard. The biggest problem with these files is that the `LOCKFILE` and `WPDIR` variables are defined in each file and only slightly different between files. This is unfortunate because if I want to change either of the variables I have to change 4 files with 2 variables each for a total of 8 edits, instead of 2 variables in 1 file for a total of 2 edits. 
 
 ### lock_wp.sh ###
-```bash
-#!/bin/bash
-
-LOCKFILE="/home/tad/scripts/.unlocked_wp-content"
-WPDIR="/var/www/localhost/htdocs/blog/wp/wp-content"
-
-if [ ! -f $LOCKFILE ]; then
-        echo "Unlocking WP-Content Directory"
-        find $WPDIR -type f -exec chmod 664 {} \;
-        find $WPDIR -type d -exec chmod 775 {} \;
-        touch $LOCKFILE
-else
-        echo "WP-Content Directory Already Unlocked"
-fi
-```
+{% gist 8809515 lock_wp.sh %}
 
 ### unlock_wp.sh ###
-```bash
-!/bin/bash
-
-LOCKFILE="/home/tad/scripts/.unlocked_wp"
-LOCKCONTENT="/home/tad/scripts/.unlocked_wp-content"
-WPDIR="/var/www/localhost/htdocs/blog/wp/"
-
-if [ ! -f $LOCKFILE ]; then
-        echo "Unlocking WP Directory"
-        find $WPDIR -type f -exec chmod 664 {} \;
-        find $WPDIR -type d -exec chmod 775 {} \;
-        touch $LOCKFILE
-
-        if [ ! -f $LOCKCONTENT ]; then
-                touch $LOCKCONTENT
-        fi
-else
-        echo "WP Directory Already Unlocked"
-fi
-
-```
+{% gist 8809515 unlock_wp.sh %}
 
 ### lock_wp-content.sh ###
-```bash
-#!/bin/bash
-
-LOCKFILE="/home/tad/scripts/.unlocked_wp-content"
-WPDIR="/var/www/localhost/htdocs/blog/wp/wp-content"
-
-if [ -f $LOCKFILE ]; then
-        echo "Locking WP-Content Directory"
-        find $WPDIR -type f -exec chmod 644 {} \;
-        find $WPDIR -type d -exec chmod 755 {} \;
-        rm -f $LOCKFILE
-else
-        echo "WP-Content Directory Already Locked"
-fi
-```
+{% gist 8809515 lock_wp-content.sh %}
 
 ### unlock_wp-content.sh ###
-```bash
-#!/bin/bash
-
-LOCKFILE="/home/tad/scripts/.unlocked_wp-content"
-WPDIR="/var/www/localhost/htdocs/blog/wp/wp-content"
-
-if [ ! -f $LOCKFILE ]; then
-        echo "Unlocking WP-Content Directory"
-        find $WPDIR -type f -exec chmod 664 {} \;
-        find $WPDIR -type d -exec chmod 775 {} \;
-        touch $LOCKFILE
-else
-        echo "WP-Content Directory Already Unlocked"
-fi
-```
+{% gist 8809515 unlock_wp-content.sh %}
 
 ## Simple ##
 The simple solution is actually more complex, as you would expect after understanding that complex is the opposite of easy not simple. Right off you're notice there is a lot more code, more than just combining the four files above. The primary reason for this is that I've added some sanity checking and a lot more functionality. Where the top four files essentially only worked on two folder, this simple solution works on any folder under the `WPDIR` path. There is also error catching for how the script is called so to prevent incorrect flags messing things up. This solution is more complex also because it uses more powerful BASH commands to addresses various conditional environments and since I've never really written much in BASH I had to google a lot of the methods as well as much trial and error.

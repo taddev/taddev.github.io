@@ -1,6 +1,6 @@
 name: Splunk.Net
 description: A bloggy blog
-url: https://dev.splunk.net
+url: https://blog.splunk.net
 safe: true
 lsi: true
 permalink: /:year/:month/:title
