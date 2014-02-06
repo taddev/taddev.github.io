@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Review: Little Black Notebook"
+date:   2011-12-30
+categories: personal
+---
+
 
 I've recently developed a bit of an obsession with what are know as little black notebooks. These are notebooks styled after a once legendary but now rather commodified notebook made by the company Moleskine in Italy, but now manufactured in China to meet demands of large retailers like Barne's & Nobles. I'm not trying to trash talk Moleskine because it was their version that got me interested in the books, but during my investigation on their production method I was concerned about their desire for quantity and the potential loss in quality.
 
