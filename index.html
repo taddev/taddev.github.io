@@ -9,7 +9,7 @@ title: Splunk.Net
     {% for post in site.posts %}
       <li><strong>{{ post.date | date_to_string }}</strong> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% if post.excerpt %}      
-      <p>{{ post.excerpt }} <a href="{{ post.url }}"> more...</a></p>
+      <p>{{ post.excerpt }} <a href="{{ post.url }}">Continue Reading...</a></p>
 {% endif %}
     {% endfor %}
   </ul>
