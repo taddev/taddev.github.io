@@ -11,17 +11,7 @@ I've only started to scratch the surface of what *jekyll* can do, but I do see t
 
 The one piece that I needed to figure out was how to keep my SSL requirement met by the site. Then it dawned on me that I can use the custom site name feature of the github pages and pare it with an Nginx reverse proxy. After a few minutes digging on the *Google* I found this little piece of config.
 
-```
-location / {
-	proxy_pass              http://taddevries.github.io;
-	proxy_redirect          default;
-	proxy_buffering         off;
-	proxy_set_header        Host            		$host;
-	proxy_set_header        X-Real-IP       		$remote_addr;
-	proxy_set_header        X-Forwarded-For         $proxy_add_x_forwarded_for;
-	proxy_set_header        X-Forwarded-Protocol    $scheme;
-}
-```
+{% gist 8872330 %}
 
 What this means is that I'll still need my own web server to handle the SSL termination and initiate the reverse proxy but this gives me much more control over how the page is accessed and if I'm really concerned about an outage of my home server I can always add a *Digital Ocean* droplet as a DNS round-robin endpoint. This also gives me the ability to maintain my IPV6 functionality since I'll be handling the hand-off to the back-end over IPV4 but visitors will be able to talk to my servers with native IPV6 support and don't need to no anything about how the site gets to them.
 
