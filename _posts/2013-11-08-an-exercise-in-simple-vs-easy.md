@@ -5,7 +5,7 @@ date:   2013-11-08
 categories: code
 ---
 
-For the past several months I've been working on a simple premise, **Simple != Easy** or for the non programmers of the world **Simple is not Easy**. I've take this ideology from a presentation by Rich Hickey titled [_Simple Made Easy_](http://www.infoq.com/presentations/Simple-Made-Easy). Rich is mainly talking to programmers and software designers in his presentation but I believe the information is valid in all frames of life. With this idea of simplicity in mind I go looking for things that I can *simplify* knowing that sometimes the simply solution is not easy to get to.  
+For the past several months I've been working on a simple premise, **Simple != Easy** or for the non programmers of the world **Simple is not Easy**. I've take this ideology from a presentation by Rich Hickey titled [_Simple Made Easy_](http://www.infoq.com/presentations/Simple-Made-Easy). Rich is mainly talking to programmers and software designers in his presentation but I believe the information is valid in all frames of life. With this idea of simplicity in mind I go looking for things that I can *simplify* knowing that sometimes the simply solution is not easy to get to. <!-- more --> 
 
 Several months ago I put together some basic BASH scripts that I used to manage the permissions on my the files and folders of my Wordpress site. These scripts allow me to easily change the permissions to read/write so I can do things like install themes and plugins or update the site. Once I've finished making changes to the site I could run another script to change the permissions back to read-only so I don't have writable files facing the internet.
 

@@ -5,8 +5,8 @@ date:   2008-02-09
 categories: fiction
 ---
 
-I was born over 2000 years ago on a planet far from here. I have told this story to very few; only those who choose to help me know my secrets. If you are reading this now then I have chosen you to aid in my quest. 
-My name is Jerel, I am a Tok’ra. My race has been fighting the Goa’uld for several millennia. We are of the same species as the accursed Goa’uld but share none of their desires for universal domination. We choose to blend naturally with our hosts and will only blend with those that will have us.
+I was born over 2000 years ago on a planet far from here. I have told this story to very few; only those who choose to help me know my secrets. If you are reading this now then I have chosen you to aid in my quest.
+My name is Jerel, I am a Tok’ra. My race has been fighting the Goa’uld for several millennia. We are of the same species as the accursed Goa’uld but share none of their desires for universal domination. We choose to blend naturally with our hosts and will only blend with those that will have us.<!-- more -->
 
 I came to this planet thousands of years ago, when Ra ruled as god over the Egyptian peoples. My mission was to infiltrate his most trusted circle and assassinate him. This was very difficult and required many centuries in his service to build his trust. During this time I worked with a group of Tau’ri to build a resistance group against Ra. I told them the truth of our race and how Ra was blinding them with their lack of knowledge. It was this group that eventually led the uprising against Ra and buried the Chapa’hai.
 
