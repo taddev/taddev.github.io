@@ -41,7 +41,19 @@
 	<script type="text/javascript" src="/javascripts/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="/javascripts/jquery.cookies.js"></script>
 	<script type="application/x-social-share-privacy-settings">{	 
-		order: ['buffer', 'delicious', 'disqus', 'facebook', 'gplus', 'hackernews', 'linkedin', 'pinterest', 'reddit', 'stumbleupon', 'twitter', 'xing']
+		//order: ['buffer', 'delicious', 'disqus', 'facebook', 'gplus', 'hackernews', 'linkedin', 'pinterest', 'reddit', 'stumbleupon', 'twitter', 'xing'],
+		layout: "line",
+		services: { "buffer":{"status":false},
+					"delicious":{"status":false},
+					"disqus":{"status":false},
+					"fbshare":{"status":false},
+					"flattr":{"status":false},
+					"hackernews":{"status":false},
+					"mail":{"status":false},
+					"stumbleupon":{"status":false},
+					"tumblr":{"status":false},
+					"xing":{"status":false}
+				}
 	}
 	</script>
 </head>
@@ -75,7 +87,7 @@
 			{% endfor %}
 			</ul>
 			<h4>Social</h4>
-			<div data-social-share-privacy='true' data-services.flattr.status='false'></div>
+			<div data-social-share-privacy='true'></div>
 		</div>
 	</div><!-- container -->
 <!-- End Document
