@@ -40,8 +40,22 @@
 	================================================== -->
 	<script type="text/javascript" src="/javascripts/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="/javascripts/jquery.cookies.js"></script>
-	<script type="text/javascript" src="/javascripts/jquery.socialshareprivacy.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.socialshareprivacy.min.autoload.js"></script>
 	<script type="text/javascript" src="/javascripts/main.js"></script>
+	
+	<script type="application/x-social-share-privacy-settings">{
+		layout:"line",
+		services:{"delicious":{"status":false},
+				  "fbshare":{"status":false},
+				  "flattr":{"status":false},
+				  "hackernews":{"status":false},
+				  "mail":{"status":false},
+				  "stumbleupon":{"status":false},
+				  "tumblr":{"status":false},
+				  "xing":{"status":false}
+				  }
+		}
+	</script>
 
 </head>
 <body>
@@ -74,7 +88,7 @@
 			{% endfor %}
 			</ul>
 			<h4>Social</h4>
-			<div id="share"></div>
+			<div data-social-share-privacy='true'></div>
 		</div>
 	</div><!-- container -->
 <!-- End Document
