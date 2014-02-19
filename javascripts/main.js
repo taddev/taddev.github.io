@@ -15,7 +15,7 @@ $.extend(true, $.fn.socialSharePrivacy.settings, {
 
 $(document).ready(function () {
 	$('#comments-button').click(function () {
-		$.getScript('http://' + disqus_shortname + '.disqus.com/embed.js');
+		$.getScript('https://' + disqus_shortname + '.disqus.com/embed.js');
 		$(this).remove();
 	});
 });
