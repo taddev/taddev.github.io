@@ -18,4 +18,6 @@ $(document).ready(function () {
 		$.getScript('https://' + disqus_shortname + '.disqus.com/embed.js');
 		$(this).remove();
 	});
+
+	$('.share').socialSharePrivacy();
 });
