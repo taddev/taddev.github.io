@@ -1,3 +1,4 @@
+$.fn.socialSharePrivacy.settings.order = ['facebook','twitter','gplus','reddit','pinterest','linkedin'];
 var disqus_shortname = 'splunkdotnet';
 var disqus_url = $.fn.socialSharePrivacy.settings.uri($.fn.socialSharePrivacy.settings);
 
