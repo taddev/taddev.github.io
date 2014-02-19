@@ -20,5 +20,39 @@ $(document).ready(function () {
 		$(this).remove();
 	});
 
-	$('.share').socialSharePrivacy();
+	$('.share').socialSharePrivacy({
+		layout:"line",
+		services:{
+			buffer:{ 
+				status: false
+			},
+			delicious:{ 
+				status: false
+			},
+			disqus:{ 
+				status: false
+			},
+			fbshare:{ 
+				status: false
+			},
+			flattr:{ 
+				status: false
+			},
+			hackernews:{ 
+				status: false
+			},
+			mail:{ 
+				status: false
+			},
+			stumbleupon:{ 
+				status: false
+			},
+			tumblr:{ 
+				status: false
+			},
+			xing:{ 
+				status: false
+			}
+		}
+	});
 });
