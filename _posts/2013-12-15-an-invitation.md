@@ -5,7 +5,7 @@ date:   2013-12-15
 categories: fiction
 ---
 
-The setting sun provided a warm backlight on the massive building. A rainbow of color bounced around as the sunlight shot through some of the massive glass windows and bounced off other. The steel and concrete monster sat silently on the edge of oblivion, not knowing what was about to happen. The death it had in tole was as strange and unknown to it as this building now was to the world around it.
+The setting sun provided a warm backlight on the massive building. A rainbow of color bounced around as the sunlight shot through some of the massive glass windows and bounced off other. The steel and concrete monster sat silently on the edge of oblivion, not knowing what was about to happen. The death it had in tole was as strange and unknown to it as this building now was to the world around it.<!-- more -->
 
 Rusty sat on the hill side watching his watch and doing a countdown silently in his head. The anxiety of what was about to happen was as thick as the sweat and dirt on his brow. As he sat there silently counting down to something important he felt the hair on his neck stand up and heard a small rustle in the brush behind him. Institutionally he grabbed the 12 gauge next to him and stood up and turned around in one smooth rehearsed motion. He quickly pointed the gun toward the sound not expecting what he saw.
 
