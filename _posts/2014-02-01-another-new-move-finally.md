@@ -16,3 +16,7 @@ The one piece that I needed to figure out was how to keep my SSL requirement met
 What this means is that I'll still need my own web server to handle the SSL termination and initiate the reverse proxy but this gives me much more control over how the page is accessed and if I'm really concerned about an outage of my home server I can always add a *Digital Ocean* droplet as a DNS round-robin endpoint. This also gives me the ability to maintain my IPV6 functionality since I'll be handling the hand-off to the back-end over IPV4 but visitors will be able to talk to my servers with native IPV6 support and don't need to no anything about how the site gets to them.
 
 Well, that's the news from me for now. I'm sure there is a lot that can be fixed here and as always this will continue to be a work in progress, but I'm hopeful again.
+
+### Update ###
+**2014/03/10** 
+I might have accidentally configured my new VPS front end server incorrectly and this prevent anyone using IPV4 only from viewing my website. I noticed the issue with my page analytics showed me 1 visit in the last 72 hours. I've now fixed the issue, the problem lied in NGINX and my thinking that it opened both IPV6 and IPV4 ports from a single config line which it didn't. A simple `netstat -tulnap | grep nginx` would have showed me that it was not listening correctly but I was not wise enough to check it and just [assumed](http://www.xkcd.com/1339/) I had done things correctly. It is fixed now and I've updated my gist of the config to match what I'm currently using.
