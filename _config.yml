@@ -5,5 +5,6 @@ safe: true
 lsi: true
 permalink: /:year/:month/:title/
 timezone: America/Denver
+markdown: kramdown
 category-list: [code, fiction, personal]
 excerpt_separator: <!-- more -->
