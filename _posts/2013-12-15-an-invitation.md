@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "An Invitation"
-date:   2013-12-15
 categories: fiction
 ---
 

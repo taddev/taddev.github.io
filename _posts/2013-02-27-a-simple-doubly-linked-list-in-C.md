@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "A Simple Doubly Linked List in C"
-date:   2013-02-27
 categories: code
 ---
 

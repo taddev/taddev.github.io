@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "An Exercise in Simple vs. Easy"
-date:   2013-11-08
 categories: code
 ---
 

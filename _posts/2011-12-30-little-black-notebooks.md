@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Review: Little Black Notebook"
-date:   2011-12-30
 categories: personal
 ---
 

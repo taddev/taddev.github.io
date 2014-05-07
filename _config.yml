@@ -8,3 +8,9 @@ timezone: America/Denver
 markdown: kramdown
 category-list: [code, fiction, personal]
 excerpt_separator: <!-- more -->
+
+defaults:
+ -
+   scope:
+     path: "_post"
+     layout: "post"

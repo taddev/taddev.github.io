@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "Another New Move, Finally"
-date:   2014-02-01 22:17
 categories: personal
 ---
 

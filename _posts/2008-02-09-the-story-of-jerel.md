@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "The Story of Jerel"
-date:   2008-02-09
 categories: fiction
 ---
 
