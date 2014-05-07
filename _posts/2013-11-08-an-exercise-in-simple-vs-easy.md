@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "An Exercise in Simple vs. Easy"
 categories: code
 ---

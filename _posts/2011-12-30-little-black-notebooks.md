@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Review: Little Black Notebook"
 categories: personal
 ---

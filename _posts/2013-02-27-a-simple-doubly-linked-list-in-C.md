@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "A Simple Doubly Linked List in C"
 categories: code
 ---

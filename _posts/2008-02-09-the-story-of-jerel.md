@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "The Story of Jerel"
 categories: fiction
 ---

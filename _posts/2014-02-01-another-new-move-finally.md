@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Another New Move, Finally"
 categories: personal
 ---
