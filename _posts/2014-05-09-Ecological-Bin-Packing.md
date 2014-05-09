@@ -3,8 +3,7 @@ layout: post
 title:  "102, Ecological Bin Packing"
 categories: code
 ---
-## 102 Ecological Bin Packing
-This problem is built around the problem of sorting glass bottles by color. There are three colors of glass (brown, green, clear) and we need to figure out how to sort them in the least number of moves. The input is a series of 9 integers that define the number of each color bottles that go into each of three initial bins. 
+This problem is built around the problem of sorting glass bottles by color. There are three colors of glass (brown, green, clear) and we need to figure out how to sort them in the least number of moves. The input is a series of 9 integers that define the number of each color bottles that go into each of three initial bins.<!-- more -->
 
 The boundaries in the problem are based around the number of bins and the number of colors, both the same. So we know right away that the maximum number of combinations to our sorting problem is `3 x 2 x 1 = 6`. 
 
