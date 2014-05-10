@@ -5,7 +5,7 @@ categories: code
 ---
 The original problem description is [here](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=37)
 
-This problem involves simulating the functionality of a robotic arm to manipulate stacks of blocks. The initial state has all the blocks lined up in sequence from 0 to n. There are four different move operations that must be programmed.
+This problem involves simulating the functionality of a robotic arm to manipulate stacks of blocks. The initial state has all the blocks lined up in sequence from 0 to n. There are four different move operations that must be programmed. <!-- more -->
 
 ### How I Solved It
 My solution is on [Github](https://github.com/taddev/UVa-Submissions/tree/master/101-The_Blocks_Problem).
