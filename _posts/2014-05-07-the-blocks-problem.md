@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "101, The Block Problem"
+title:  "101, The Blocks Problem"
 categories: code
 ---
 The original problem description is [here](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3&page=show_problem&problem=37)
