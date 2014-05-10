@@ -18,6 +18,8 @@ The boundaries in the problem are based around the number of bins and the number
 So I could have gotten fancy and figured out the necessary logic to solves these combinations via loops but since there are only 6 options it's just as easy to copy/paste/edit to get all the combinations. 
 
 ### How I solved it
+Check out the source code available on [Github](https://github.com/taddev/UVa-Submissions/tree/master/102-Ecological_Bin_Packing).
+
 Like my solutions so far I want to make sure I'm using at least a secure input method so I define an input buffer and use `fgets()` to read in from `STDIN`. Once I have the 9 integers in a character array I can loop through using `strtol`, *string to long* for those not familiar with it, to convert each integer to a *base10* integer. 
 
 I pull the input into a 2-dimensional array (3x3) where the first value defines the *bin* and the second defines the color bottle in that bin. I've chosen to define the order of colors based on their input precedence; brown=0, green=1, clear=2. 
