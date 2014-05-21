@@ -6,15 +6,15 @@ title: About Me
 <h4><a name="privacy-policy">Privacy Policy</a></h4>
 <p>In the interest of full disclosure I wish to describe what information I collect, how I collect it, and when it is deleted. There are many different method of collecting site analytics, I would like to think that I've chosen a method that is as non-intrusive as possible to the site visitors. I will say up front that this site is hosted on <a href="https://pages.github.com/">Github Pages</a> and I have no control over their analytics or data collection methods. The data I collect is for my own use and to help me understand my visitors better.</p>
 
-<h5>What</h5>
+<h4>What</h4>
 <p>A list of the information collected is visitor IP address, user agent, [referer], search keywords (if available), plugins installed, the landing page, the exit page, file download actions, and how long the visit was. This is by no means all the information collected but simply a list to demonstrate that pretty much everything about each visit and what it entails is being tracked and analyzed. There is nothing unusual about this type and amount of data being tracked, in fact that data is what companies like Google and Facebook use to make their massive mounds of money. I aspire to a more humble calling and only want to gather data so I know more about how visitors are using my site.</p>
 
 <p>Many things can be inferred from the data collected such as GeoIP location information. Using online databases I can get an estimation of where you are in the world based on the IP address you used to connect. This estimate is pretty granular allowing me to estimate your location to the country and city of origin, but that is as far as it goes.</p>
 
-<h5>How</h5>
+<h4>How</h4>
 <p>The platform I've chosen to use is called <a href="http://piwik.org/">Piwik</a>. Piwik is an open source tool for gathering and tracking page view data. This data is collected by my servers and stored on my servers; view the source of any page here you'll see the tracking block. There is both a <em>&lt;script&gt;</em> and <em>&lt;noscript&gt;</em> block so that I can catch as many configurations as possible.</p>
 
-<h5>When</h5>
+<h4>When</h4>
 <p>The details of each visit are stored in a database on my development server. This server is in my physical possession so I'm relatively confident that I am the only person with access to it. One of the nice features in Piwik is the ability to schedule data deletion. This is done to help keep the database small but also provides privacy for the visitor data. The active logs are deleted after 3 months and the generated reports are deleted after 6 months. There are monthly and yearly reports that are held indefenetly but they contain no specific visitor data, they are simply used to give historical reference to the patterns of access. The information that is held in the logs is sanitized to eliminate the last two octets of the IPV4 address.</p>
 
 <p>I also honor the <em>Do not track</em> setting in your web browser. Piwik has a feature to ignore data send from users with that configured. So while the information is transferred to my server it is not stored or analyzed once it arrives. Unfortunately there is no way to eliminate the transmission of data because something has to be sent to my server in the first place to inform it of the request to not track.</p>
