@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Configuring pfSense for IPv6 on Midcontinent Communications"
+title: Configuring pfSense for IPv6 on Midco
 categories: sysadmin
+description: A guide to configuring native IPv6 on Midcontinent Communications using a pfSense router and firewall.
 ---
 Having a conversation recently with a friend the topic of IPv6 came up and he mentioned that Midcontinnent Communications has rolled out native support for IPv6 on their network. I hadn't noticed because no one at Midco made any noise about this and since I've been using a [6 over 4 tunnel](https://tunnelbroker.net) through [Hurricane Electric](https://he.net) for years I just never bothered to look at the WAN side of my router.<!-- more -->
 
