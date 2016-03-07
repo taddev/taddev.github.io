@@ -33,4 +33,3 @@ Lastly, once you have the internal interface set you should start seeing your cl
 
 ### Celebrate
 You're now browsing the internet of the future, or something like that. Go ahead, try out [test-ipv6.com](http://test-ipv6.com/) you should get a solid 10/10. Enjoy!
-

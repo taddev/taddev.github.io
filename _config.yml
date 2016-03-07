@@ -1,5 +1,5 @@
 name: Splunk.Net
-description: A bloggy blog
+description: A place to place my mind
 url: https://blog.splunk.net
 safe: true
 lsi: true
@@ -14,3 +14,6 @@ defaults:
       path: ""
     values:
       layout: "post"
+gems:
+  - jekyll-gist
+exclude: [README.md, CNAME]

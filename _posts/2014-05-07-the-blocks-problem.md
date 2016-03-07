@@ -23,7 +23,7 @@ The structure I use to store the block information is this:
 		struct block *below;
 	};
 
-I had initially not included the stack reference in each block, but it became necessary when I realized I had to be able to check whether two blocks where in the same stack. The problem description required that moves involving blocks in the same stack be ignored so this was my solution to be able to quickly identify which stack the block was currently in. 
+I had initially not included the stack reference in each block, but it became necessary when I realized I had to be able to check whether two blocks where in the same stack. The problem description required that moves involving blocks in the same stack be ignored so this was my solution to be able to quickly identify which stack the block was currently in.
 
 ### Possible Alternate Solution
 Near the end of my work on this problem I realized that I could probably have solved this with a 2 dimensional array that was preallocated to 25x25 since that is the maximum input. Each point in the array would then correspond to spot in a stack and could simply contain the block ID in that position. This solution could be more difficult when you start moving entire stacks because the risk of incorrectly manipulated indexes.  

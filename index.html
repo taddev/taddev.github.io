@@ -6,7 +6,7 @@ title: Splunk.Net
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><strong>{{ post.date | date_to_string }}</strong> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <em style="float: right">{{ post.categories | first }}</em></li> 
+      <li><strong>{{ post.date | date_to_string }}</strong> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <em style="float: right">{{ post.categories | first }}</em></li>
       {{ post.excerpt }}
 	  <br/>
     {% endfor %}

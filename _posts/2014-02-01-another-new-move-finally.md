@@ -17,5 +17,5 @@ What this means is that I'll still need my own web server to handle the SSL term
 Well, that's the news from me for now. I'm sure there is a lot that can be fixed here and as always this will continue to be a work in progress, but I'm hopeful again.
 
 ### Update ###
-**2014/03/10** 
+**2014/03/10**
 I might have accidentally configured my new VPS front end server incorrectly and this prevented anyone using IPV4 only from viewing my website. I noticed the issue with my page analytics showed me 1 visit in the last 72 hours. I've now fixed the issue, the problem lied in NGINX and my thinking that it opened both IPV6 and IPV4 ports from a single config line which it didn't. A simple `netstat -tulnap | grep nginx` would have showed me that it was not listening correctly but I was not wise enough to check it and just [assumed](http://www.xkcd.com/1339/) I had done things correctly. It is fixed now and I've updated my gist of the config to match what I'm currently using.

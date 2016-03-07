@@ -23,7 +23,7 @@
 				var value = values[i];
 				var pos = value.search("=");
 				var key, value;
-				
+
 				if (pos < 0) {
 					key   = decode(value);
 					value = undefined;
@@ -39,7 +39,7 @@
 
 		return cookies;
 	}
-	
+
 	function set (name, value, expires, path, domain, secure) {
 		switch (arguments.length) {
 			case 1:
