@@ -16,4 +16,6 @@ defaults:
       layout: "post"
 gems:
   - jekyll-gist
+
+include: [images, javascripts, stylesheets]
 exclude: [README.md, CNAME]
