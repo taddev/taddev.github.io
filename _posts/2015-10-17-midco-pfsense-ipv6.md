@@ -17,6 +17,17 @@ Now that the WAN interface has a valid IPv6 address I wasn't sure how to get a p
 
 <span style="width:600px; float:center">![wan2](/images/20151017/midco-wan2.png)</span>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Configure the LAN Interface
 In order for the router to advertise the prefix to the internal network the LAN interface has to be set to *Track Interface* for the IPv6 type. This opens a section further down the page where you can select which interface to track from and what index to use for the prefix. Since there is only one prefix available the default of 0 (zero) is the only option.
 
