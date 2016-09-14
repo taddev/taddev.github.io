@@ -17,6 +17,17 @@ The boundaries in the problem are based around the number of bins and the number
 
 So I could have gotten fancy and figured out the necessary logic to solves these combinations via loops but since there are only 6 options it's just as easy to copy/paste/edit to get all the combinations.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### How I solved it
 Check out the source code available on [Github](https://github.com/taddev/UVa-Submissions/tree/master/102-Ecological_Bin_Packing).
 

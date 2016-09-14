@@ -29,3 +29,14 @@ In the distant a flare gun shot high into the sky and hung above the city. Carla
 Rusty grabbed her arm. "I hope you know what you're doing."
 
 "Yeah" said Carla, "I'm inviting them for dinner."
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>

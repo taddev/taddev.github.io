@@ -7,6 +7,17 @@ The original problem description is [here](http://uva.onlinejudge.org/index.php?
 
 This problem involves simulating the functionality of a robotic arm to manipulate stacks of blocks. The initial state has all the blocks lined up in sequence from 0 to n. There are four different move operations that must be programmed. <!-- more -->
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### How I Solved It
 My solution is on [Github](https://github.com/taddev/UVa-Submissions/tree/master/101-The_Blocks_Problem).
 

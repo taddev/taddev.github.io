@@ -9,6 +9,17 @@ I've recently developed a bit of an obsession with what are know as little black
 
 <img style="float:right" src="/images/moleskine_pocket_plain_notebook.gif" />These notebooks have a very distinct appearance and from a distance they would all look roughly the same. The dimensions of the notebooks I'm most interested in are 9cm x 14cm or approximately 3.5in x 5.5in to the American folks (like me.) This size is just about right to fit into your pocket so you can carry the book with you everywhere and write down everything. These notebooks also have an elastic band sewn onto the back cover and stretches over the front cover to help keep it closed as it ages. There is also some sort of bookmark built into the notebook; the Moleskine has a satin ribbon for this purpose but some other notebooks have gotten creative with a paper flap. A pocket built into the inside of the back cover stores loose-left notes. Lastly, and the most important in my opinion, the rounded corners to prevent page bending and creasing.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 While looking for an alternative to the Moleskine notebook, and just trying to see what else is out there, I found the [BlackCover.net](http://blackcover.net/) blog that has reviewed several different versions of these small notebooks. This site has been fairly inactive for the last couple years but there is still a lot of good information on it; he claims his inactiveness is because there haven't been any new books lately that are worth reviewing. He did about 19 review before things died off, and even managed to get one of his favorite notebooks brought back into production and named after his site, I'll talk more about this one in a bit.
 
 <img style="float:left" src="/images/z-ruled-172x300.jpg" />The first notebook that caught my eye was the [Piccadilly Essential Notebooks](http://piccadillyinc.com/products/notebooks). It has the standard 3.5in x 5.5in format, elastic strap, satin bookmark, and rear pocket. The thing that makes the Piccadilly notebooks jump out is their price. Where the Moleskine is between $10 & $15 depending on where you buy it and how many you order (if online), the Piccadilly is $4.99 and seems to go on sale; like now during Christmas. I've tried to find information on their production methods but haven't had any luck yet. I'm not too concerned about the production process of these notebooks because they're a discount notebook so I'm OK with a lower quality.

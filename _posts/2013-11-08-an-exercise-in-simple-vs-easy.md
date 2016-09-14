@@ -10,6 +10,17 @@ Several months ago I put together some basic BASH scripts that I used to manage 
 
 Fast-forward a few months and I've built a new web server and moved my site as well as all the files I use to manage the site, including the scripts to manage file and folder permissions. I logged into the admin page and found several updates waiting for plugins and even a core update to Wordpress itself, so off I set to use my trusty scripts to "lock" and "unlock" the folders so I could run the updates. I realized at this point that the four scripts I had built, which were pretty *easy* to build were not exactly *easy* to maintain. The fact that there were four different files instead of just one means that if I want to change a setting that affects all four files I have to edit all four files. Once I realized that I had done the *easy* thing instead of the *simple* thing I set out to fix it.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- splunkdotnet-putty -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9669749806151313"
+     data-ad-slot="1361967586"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## Easy ##
 The easy solution consists of four files with their own settings, variables, and small amount of error handling. As you can see it was easy to build these four files since there is a lot of repeated code, but that doesn't mean it's good coding standard. The biggest problem with these files is that the `LOCKFILE` and `WPDIR` variables are defined in each file and only slightly different between files. This is unfortunate because if I want to change either of the variables I have to change 4 files with 2 variables each for a total of 8 edits, instead of 2 variables in 1 file for a total of 2 edits.
 
