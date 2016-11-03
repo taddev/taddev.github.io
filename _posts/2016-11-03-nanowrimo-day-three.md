@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NaNoWriMo Day One
+title: NaNoWriMo Day Three
 categories: personal
 description: My continuing endeavor to write something and make it something.
 ---
